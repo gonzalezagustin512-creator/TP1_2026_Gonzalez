@@ -21,7 +21,7 @@ abro el archivo y edito el contenido luego un git add y un git comit\
 4) Que significan los marcadores <<<<<<<, ======= y >>>>>>>? 
 =======\
 <<<<<<< HEAD marca el inicio de los datos en la rama actual\
-======= es la línea divisoria entre ambos cambios\
+======= es la línea divisoria entre ambos cambios\ 
 >>>>>>> AgustinGonzalez indica el final de tus datos de alumno\
 
 
