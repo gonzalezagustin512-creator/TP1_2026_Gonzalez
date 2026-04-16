@@ -1,12 +1,11 @@
-
-Bruno Palacios\
-12345\
-palaciosbruno@hotmail.com\
 # TP1_2026_Gonzalez\
 Agustín González\
 gonzalezagustin512@gmail.com\
 21612\
-\
+
+Bruno Palacios\
+12345\
+palaciosbruno@hotmail.com\
 Responda entre líneas a cada una de las siguientes preguntas: 
  
 1) ¿Qué ocurrió durante el merge?\
@@ -20,8 +19,12 @@ abro el archivo y edito el contenido luego un git add y un git comit\
  
 4) Que significan los marcadores <<<<<<<, ======= y >>>>>>>? 
 =======\
-<<<<<<< HEAD marca el inicio de los datos en la rama actual\
-======= es la línea divisoria entre ambos cambios\
->>>>>>> AgustinGonzalez indica el final de tus datos de alumno\
+Los marcadores delimitan las versiones en conflicto para que el usuario pueda editarlas/
+
+<<<<<<< HEAD: Indica el inicio de los cambios en la rama donde estás parado actualmente.
+
+>>>>>>> [NombreRama]: Señala el final de los cambios que provienen de la rama que se intenta integrar.
+
+======= (El divisor):Su función es dividir los cambios de la rama base de los cambios de la rama entrante. Sin este separador, no habría forma de identificar con precisión dónde termina una versión y comienza la otra, lo que imposibilitaría distinguir qué líneas pertenecen a cada propuesta para resolver el conflicto.
 
 
